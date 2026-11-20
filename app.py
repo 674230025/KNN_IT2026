@@ -153,6 +153,9 @@ with st.sidebar:
     k_value = st.slider("จำนวนเพื่อนบ้าน (K)", min_value=1, max_value=15, value=5, step=2)
     test_size = st.slider("สัดส่วนข้อมูลทดสอบ (%)", min_value=10, max_value=40, value=20, step=5)
     st.caption("โมเดลใช้ StandardScaler เพื่อปรับสเกลข้อมูลก่อนคำนวณระยะทาง")
+    st.markdown("---")
+    st.image("img/nm.jpg", width=115)
+    
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,
