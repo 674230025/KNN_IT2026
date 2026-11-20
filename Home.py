@@ -14,11 +14,11 @@ with col1:
 
 with col2:
    st.header("HeartDisease 1")
-   st.image("./img/vvv.png")
+   st.image("./img/xxx.png")
 
 with col3:
    st.header("HeartDisease")
-   st.image("./img/xxx.png")
+   st.image("./img/vvv.png")
 
 html_7 = """
 <div style="background-color:#EC7063;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
