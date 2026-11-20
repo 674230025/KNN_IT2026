@@ -10,7 +10,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("HeartDisease 0")
-   st.image("./img/nm.png")
+   st.image("./img/nm.jpg")
 
 with col2:
    st.header("HeartDisease 1")
@@ -73,7 +73,7 @@ if st.button("ทำนายผล"):
    out = Knn_model.predict(x_input)
 
    if out[0] == 'Setosa':
-    st.image("./img/nm.png")
+    st.image("./img/nm.jpg")
    elif out[0] == 'Versicolor':       
     st.image("./img/xxx.png")
    else:
